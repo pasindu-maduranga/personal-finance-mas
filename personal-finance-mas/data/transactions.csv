@@ -1,0 +1,16 @@
+date,description,amount,category,type
+2026-04-01,Salary,120000,Income,income
+2026-04-02,Grocery shopping,8500,Food,expense
+2026-04-03,Bus pass,2500,Transport,expense
+2026-04-04,Netflix,1800,Entertainment,expense
+2026-04-05,Electricity bill,4200,Utilities,expense
+2026-04-06,Restaurant dinner,3500,Food,expense
+2026-04-07,Mobile reload,1500,Utilities,expense
+2026-04-08,Clothing,6000,Shopping,expense
+2026-04-09,Freelance payment,15000,Income,income
+2026-04-10,Movie tickets,2200,Entertainment,expense
+2026-04-11,Fuel,7000,Transport,expense
+2026-04-12,Pharmacy,2800,Health,expense
+2026-04-13,Snacks,1200,Food,expense
+2026-04-14,Internet bill,2900,Utilities,expense
+2026-04-15,Gym fee,4000,Health,expense

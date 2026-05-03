@@ -1,0 +1,9 @@
+date,description,amount,category,type
+2026-05-01,Part-time Job,40000,Income,income
+2026-05-02,Apartment Rent,35000,Housing,expense
+2026-05-04,Groceries,12000,Food,expense
+2026-05-06,Electricity,4500,Utilities,expense
+2026-05-08,Bus Tickets,2000,Transport,expense
+2026-05-10,Restaurant,3000,Food,expense
+2026-05-15,Streaming Subs,2500,Entertainment,expense
+2026-05-20,Medical Bill,5000,Health,expense

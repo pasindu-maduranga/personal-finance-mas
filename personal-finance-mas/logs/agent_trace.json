@@ -1,0 +1,34 @@
+[
+    {
+        "timestamp": "2026-05-03 22:10:23",
+        "agent": "Expense Tracker Agent",
+        "tool": "csv_reader.py",
+        "status": "success",
+        "input_summary": "CSV path: data/transactions.csv",
+        "output_summary": "Loaded 15 transactions | Income: 135000.00 | Expenses: 48100.00 | Categories: ['Entertainment', 'Food', 'Health', 'Shopping', 'Transport', 'Utilities']"
+    },
+    {
+        "timestamp": "2026-05-03 22:10:23",
+        "agent": "Budget Advisor Agent",
+        "tool": "budget_checker.py",
+        "status": "success",
+        "input_summary": "Budget path: data/budget.json | Categories: ['Entertainment', 'Food', 'Health', 'Shopping', 'Transport', 'Utilities']",
+        "output_summary": "Checked 6 categories | Overspent: ['Food', 'Shopping', 'Transport'] | Within Budget: 3"
+    },
+    {
+        "timestamp": "2026-05-03 22:10:33",
+        "agent": "Savings Goal Agent",
+        "tool": "savings_api.py + llm_helper.py",
+        "status": "success",
+        "input_summary": "Income: 135000.00 | Expenses: 48100.00",
+        "output_summary": "Leftover: 86900.00 | Savings Target: 34760.00 | API: Frankfurter (https://api.frankfurter.app) | LLM advice generated: 399 chars"
+    },
+    {
+        "timestamp": "2026-05-03 22:10:33",
+        "agent": "Report Logger Agent",
+        "tool": "report_writer.py",
+        "status": "success",
+        "input_summary": "Final shared state received from all upstream agents",
+        "output_summary": "Report written to: outputs/monthly_report.md | Trace log written to: logs/agent_trace.json | Total trace entries: 4"
+    }
+]

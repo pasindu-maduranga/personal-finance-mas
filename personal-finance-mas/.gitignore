@@ -1,0 +1,31 @@
+# Environments
+venv/
+env/
+.env
+.venv
+
+# Python Byte-compiled / Optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific generated files (Optional, uncomment if you don't want to track these)
+# outputs/*.md
+# logs/*.json
+# !outputs/.gitkeep
+# !logs/.gitkeep
+
+# OS generated files
+.DS_Store
+Thumbs.db
